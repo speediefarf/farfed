@@ -22,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn NRU
         </a>
         {message && <p>{message}</p>}
       </header>
