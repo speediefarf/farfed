@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const [message, setMessage] = useState("");
   useEffect(() => {
-    fetch("/api/get-message?name=Static Web Apps")
+    fetch("/api/get-message?name=Michael")
     .then(res => res.text())
     .then(data => setMessage(data));
   }, []);
@@ -14,11 +14,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          This is no longer the default React page.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://learn.newrelic.com"
           target="_blank"
           rel="noopener noreferrer"
         >
